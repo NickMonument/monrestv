@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Hello, world!</title>
+  <title>Montana Resources</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="" />
   <link rel="stylesheet" type="text/css" href="css/swiper-bundle-min.css"/>
@@ -15,16 +15,14 @@
   <script src="./scripts/app.js"></script>
 
   <img class="image-bg" src="assets/montana-resource-bg.jpg" alt="background image">
+
   <div class="container">
+
     <div class="images-container">
 
-      <!------------ LEFT SIDE SLIDESHOW ------------>
       <div class="slideshow-container">
-        <!-- Slider main container -->
         <div class="swiper mySwiper">
-          <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
-            <!-- Slides -->
             <div class="swiper-slide"><img src="assets/mr slide 1 (2).jpg" alt="montana resource slide 1"></div>
             <div class="swiper-slide"><img src="assets/IMG_1513.jpg" alt="montana resource slide 1"></div>
             <div class="swiper-slide"><img src="assets/mr slide 1 (2).jpg" alt="montana resource slide 1"></div>
@@ -32,65 +30,44 @@
         </div>
       </div>
 
-      <!------------ RIGHT SIDE THUMBNAILS ------------>
       <div class="thumbnail-container">
-        <!-- Thumbnail code here -->
-        <div class="thumbnail thumbnail-top">
-          <btn class="btn play-video-btn">
-            <div class="thumbnail-inner" >
-              <div class="img-gradient"></div>
-              <svg class="play-btn" xmlns="http://www.w3.org/2000/svg" width="43.102" height="43.102" viewBox="0 0 43.102 43.102"><g transform="translate(-1620 -158.975)"><circle cx="20.5" cy="20.5" r="20.5" transform="translate(1622 160)" fill="#fff"/><path d="M24.551,3A21.551,21.551,0,1,0,46.1,24.551,21.559,21.559,0,0,0,24.551,3Zm-4.31,31.249v-19.4l12.93,9.7Z" transform="translate(1617 155.975)" fill="#e61620"/></g></svg>            
-              <img class="thumbnail-img" src="assets/Folk Festival (1).jpg" alt="folk festival video thumbnail">
-              <div class="video-title">Learn about Montana Resources</div>
-            </div>
-          </btn>
+        <div class="video-thumb-play">
+          <img class="thumbnail-img" src="assets/about-montana-resources.png" alt="folk festival video thumbnail">
+          <h4 class="video-title">Learn about Montana Resources</h4>
+          <button class="overlay-btn" data-video="video-1.mp4"></button>
         </div>
-        <div class="thumbnail thumbnail-middle">
-          <a class="btn2 play-video-btn" href="#">
-            <div class="thumbnail-inner">
-              <div class="img-gradient"></div>
-              <svg class="play-btn" xmlns="http://www.w3.org/2000/svg" width="43.102" height="43.102" viewBox="0 0 43.102 43.102"><g transform="translate(-1620 -158.975)"><circle cx="20.5" cy="20.5" r="20.5" transform="translate(1622 160)" fill="#fff"/><path d="M24.551,3A21.551,21.551,0,1,0,46.1,24.551,21.559,21.559,0,0,0,24.551,3Zm-4.31,31.249v-19.4l12.93,9.7Z" transform="translate(1617 155.975)" fill="#e61620"/></g></svg>            
-              <img class="thumbnail-img" src="assets/Pit (1).jpg" alt="pit video thumbnail">
-              <div class="video-title">Berkeley Pit & The Water Treatment<br> Process</div>
-            </div>
-          </a>
+        <div class="video-thumb-play">
+          <img class="thumbnail-img" src="assets/berkeley-pit.png" alt="pit video thumbnail">
+          <h4 class="video-title">Berkeley Pit & The Water Treatment Process</h4>
+          <button class="overlay-btn" data-video="video-2.mp4"></button>
         </div>
-        <div class="thumbnail thumbnail-bottom">
-          <a class="btn3 play-video-btn" href="#">
-            <div class="thumbnail-inner">
-              <div class="img-gradient"></div>
-              <svg class="play-btn" xmlns="http://www.w3.org/2000/svg" width="43.102" height="43.102" viewBox="0 0 43.102 43.102"><g transform="translate(-1620 -158.975)"><circle cx="20.5" cy="20.5" r="20.5" transform="translate(1622 160)" fill="#fff"/><path d="M24.551,3A21.551,21.551,0,1,0,46.1,24.551,21.559,21.559,0,0,0,24.551,3Zm-4.31,31.249v-19.4l12.93,9.7Z" transform="translate(1617 155.975)" fill="#e61620"/></g></svg>            
-              <img class="thumbnail-img" src="assets/General Mine (1).jpg" alt="general mine video thumbnail">
-              <div class="video-title">Montana Folk Festival Video</div>
-            </div>
-          </a>
+        <div class="video-thumb-play">
+          <img class="thumbnail-img" src="assets/montana-folk-festival.png" alt="general mine video thumbnail">
+          <h4 class="video-title">Montana Folk Festival Video</h4>
+          <button class="overlay-btn" data-video="video-3.mp4"></button>
         </div>
       </div>
     </div>  
 
-
-    <!-- LOGO -->
     <div class="logo-container">
       <svg class="montana-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="426.287" height="67.947" viewBox="0 0 426.287 67.947"><defs><clipPath id="a"><rect width="426.287" height="67.947" fill="#fff"/></clipPath></defs><g transform="translate(0 0)"><path d="M89.331,42.215H82.1V24.146h-.074L77.421,42.215H72.478L67.721,24.146h-.073V42.215H61.822v-25.3H71.963l3.614,13.423h.074l3.465-13.423H89.331Z" transform="translate(14.172 3.878)" fill="#fff"/><g transform="translate(0 0)"><g clip-path="url(#a)"><path d="M107.266,31.824c0,5.716-4.61,9.625-10.363,9.625S86.541,37.54,86.541,31.824c0-6.047,4.462-9.956,10.363-9.956s10.363,3.909,10.363,9.956m-12.907-.257c0,5.051,1.217,5.42,2.545,5.42s2.545-.369,2.545-5.42c0-1.808-.038-5.089-2.545-5.089s-2.545,3.281-2.545,5.089" transform="translate(19.839 5.013)" fill="#fff"/><path d="M105.171,22.237h6.9v2.655h.074c.885-2.139,3.061-3.024,5.347-3.024a6.169,6.169,0,0,1,4.9,1.955c1.18,1.549,1.18,3.688,1.18,5.641V41.081h-7.3V29.649c0-1.143,0-2.729-1.586-2.729-2.028,0-2.213,1.733-2.213,3.282V41.081h-7.3Z" transform="translate(24.11 5.013)" fill="#fff"/><path d="M131.327,23.33h3.762v4.794H131.4v6.49c0,1.363-.148,2.434,1.586,2.434a8.323,8.323,0,0,0,2.1-.333V41.99a24.631,24.631,0,0,1-5.052.627,6,6,0,0,1-4.536-1.991c-1.438-1.55-1.4-3.356-1.4-5.384V28.124H121.37V23.33h3.061l.553-6.011,6.343-.22Z" transform="translate(27.824 3.919)" fill="#fff"/><path d="M146.921,41.08a12.375,12.375,0,0,1-.258-2.618,6.857,6.857,0,0,1-6.159,2.987c-3.5,0-6.563-1.918-6.563-5.678,0-2.987,2.322-4.98,4.94-5.791a31.643,31.643,0,0,1,7.412-1.179v-.148c0-1.7-.443-2.36-2.213-2.36-1.438,0-2.655.516-2.876,2.1l-6.712-.628c1.106-4.682,5.568-5.9,9.809-5.9,2.213,0,5.052.3,6.9,1.621,2.471,1.733,2.176,4.167,2.176,6.859v6.6a10.5,10.5,0,0,0,.59,4.13Zm-.627-8.814c-1.77.184-4.72.739-4.72,3.024,0,1.217.774,1.733,1.918,1.733,2.766,0,2.8-2.325,2.8-4.388Z" transform="translate(30.706 5.013)" fill="#fff"/><path d="M151.97,22.237h6.9v2.655h.074c.885-2.139,3.061-3.024,5.347-3.024a6.166,6.166,0,0,1,4.9,1.955c1.18,1.549,1.18,3.688,1.18,5.641V41.081h-7.3V29.649c0-1.143,0-2.729-1.586-2.729-2.028,0-2.213,1.733-2.213,3.282V41.081h-7.3Z" transform="translate(34.839 5.013)" fill="#fff"/><path d="M181.721,41.08a12.374,12.374,0,0,1-.258-2.618,6.857,6.857,0,0,1-6.159,2.987c-3.5,0-6.564-1.918-6.564-5.678,0-2.987,2.323-4.98,4.942-5.791a31.634,31.634,0,0,1,7.411-1.179v-.148c0-1.7-.441-2.36-2.211-2.36-1.438,0-2.655.516-2.876,2.1l-6.713-.628c1.108-4.682,5.57-5.9,9.811-5.9,2.213,0,5.051.3,6.895,1.621,2.471,1.733,2.176,4.167,2.176,6.859v6.6a10.525,10.525,0,0,0,.59,4.13Zm-.628-8.814c-1.769.184-4.72.739-4.72,3.024,0,1.217.776,1.733,1.919,1.733,2.766,0,2.8-2.325,2.8-4.388Z" transform="translate(38.683 5.013)" fill="#fff"/><path d="M203.923,42.216h-7.856v-25.3h12.871a11.818,11.818,0,0,1,6.527,1.549,6.879,6.879,0,0,1,3.1,6.048c0,3.319-1.475,5.31-4.461,6.675l4.573,11.026h-8.629l-3.688-9.663h-2.434Zm0-15.083h2.84c1.7,0,3.725-.258,3.725-2.434a2.316,2.316,0,0,0-1.216-2.065,4.994,4.994,0,0,0-2.214-.332h-3.135Z" transform="translate(44.948 3.878)" fill="#fff"/><path d="M236.007,34.775c-1.144,4.572-5.2,6.674-9.662,6.674a11.109,11.109,0,0,1-7.6-2.47,9.245,9.245,0,0,1-3.06-7.08,10.282,10.282,0,0,1,2.726-7.117,10.472,10.472,0,0,1,7.486-2.913c6.269,0,10.106,4.057,10.106,10.251v1H223.358c0,2.028.664,3.5,2.876,3.5a2.521,2.521,0,0,0,2.876-2.286Zm-7.375-5.347c0-1.844-.59-3.245-2.655-3.245-1.919,0-2.618,1.512-2.618,3.245Z" transform="translate(49.446 5.013)" fill="#fff"/><path d="M239.221,34.959c.406,1.807,2.434,2.027,4.02,2.027.736,0,2.8-.073,2.8-1.18,0-.958-2.508-1.142-3.171-1.217-3.946-.552-8.629-1.328-8.629-6.342a5.737,5.737,0,0,1,2.913-4.942,11.209,11.209,0,0,1,6.048-1.438c3.539,0,7.265,1.364,8.519,4.9l-5.568,1.069a3.316,3.316,0,0,0-3.282-1.659c-1.328,0-2.36.443-2.36,1,0,.59.516.811,1.105.959a28.889,28.889,0,0,0,3.171.444,12.359,12.359,0,0,1,5.126,1.4,5.47,5.47,0,0,1,2.655,4.8c0,5.2-5.493,6.674-9.736,6.674-4.2,0-8.075-1.363-9.476-5.715Z" transform="translate(53.497 5.013)" fill="#fff"/><path d="M270.462,31.824c0,5.716-4.61,9.625-10.363,9.625s-10.361-3.909-10.361-9.625c0-6.047,4.461-9.956,10.361-9.956s10.363,3.909,10.363,9.956m-12.907-.257c0,5.051,1.217,5.42,2.545,5.42s2.546-.369,2.546-5.42c0-1.808-.039-5.089-2.546-5.089s-2.545,3.281-2.545,5.089" transform="translate(57.252 5.013)" fill="#fff"/><path d="M279.836,41.011v-3.1h-.073c-.776,2.435-3.282,3.468-5.716,3.468a5.971,5.971,0,0,1-4.2-1.438c-1.328-1.328-1.476-2.987-1.476-4.756V22.167h7.3v11.4c0,1.218-.038,2.506,1.621,2.506A1.979,1.979,0,0,0,279.063,35a4.089,4.089,0,0,0,.368-1.991V22.167h7.3V41.011Z" transform="translate(61.522 5.081)" fill="#fff"/><path d="M292.644,26.111c.627-2.618,1.99-4.462,4.9-4.241l1,.074v6.6a5.838,5.838,0,0,0-1.4-.184,3.131,3.131,0,0,0-2.986,1.291,6.78,6.78,0,0,0-.516,3.246v8.186h-7.3V22.239h6.232v3.872Z" transform="translate(65.642 5.009)" fill="#fff"/><path d="M315.827,34c-.665,4.868-4.132,7.449-8.924,7.449a9.126,9.126,0,0,1-6.933-2.581,9.9,9.9,0,0,1-2.8-7.154c0-5.679,3.909-9.846,9.7-9.846,4.648,0,8.336,2.729,8.888,7.449l-6.454.553-.036-.184c-.259-1.291-.554-2.766-2.177-2.766-2.322,0-2.322,3.061-2.322,4.72,0,1.771.036,4.647,2.434,4.647,1.586,0,2.176-1.438,2.36-2.8Z" transform="translate(68.125 5.012)" fill="#fff"/><path d="M333.806,34.775c-1.143,4.572-5.2,6.674-9.661,6.674a11.1,11.1,0,0,1-7.6-2.47,9.242,9.242,0,0,1-3.061-7.08,10.281,10.281,0,0,1,2.726-7.117,10.472,10.472,0,0,1,7.486-2.913c6.269,0,10.106,4.057,10.106,10.251v1h-12.65c0,2.028.665,3.5,2.879,3.5a2.522,2.522,0,0,0,2.876-2.286Zm-7.375-5.347c0-1.844-.59-3.245-2.655-3.245-1.919,0-2.62,1.512-2.62,3.245Z" transform="translate(71.866 5.013)" fill="#fff"/><path d="M337.018,34.959c.406,1.807,2.434,2.027,4.022,2.027.736,0,2.8-.073,2.8-1.18,0-.958-2.509-1.142-3.171-1.217-3.945-.552-8.629-1.328-8.629-6.342a5.738,5.738,0,0,1,2.912-4.942A11.214,11.214,0,0,1,341,21.868c3.541,0,7.265,1.364,8.519,4.9l-5.567,1.069a3.314,3.314,0,0,0-3.282-1.659c-1.328,0-2.36.443-2.36,1,0,.59.516.811,1.106.959a28.842,28.842,0,0,0,3.171.444,12.38,12.38,0,0,1,5.126,1.4,5.47,5.47,0,0,1,2.655,4.8c0,5.2-5.495,6.674-9.736,6.674-4.2,0-8.076-1.363-9.479-5.715Z" transform="translate(75.916 5.013)" fill="#fff"/><path d="M67.948,33.973A33.974,33.974,0,1,1,33.973,0,33.978,33.978,0,0,1,67.948,33.973" transform="translate(0 0)" fill="#d80028"/><path d="M5.059,15.654,22.393,49.878h14.9L20.026,15.654Z" transform="translate(1.16 3.588)" fill="#fff"/><path d="M28.978,15.654H21.625L38.89,49.878h7.436l-.106-.12Z" transform="translate(4.958 3.588)" fill="#fff"/><path d="M34.2,15.595v4.471a1.606,1.606,0,0,0,1.029,1.53l.669.939,1.062-1.451a2.183,2.183,0,0,1,1.816-.12c1.167.388,1.35,1.878,1.476,3.041l-.02.323H36.756L35.463,26.9H40.6l4.085-8.133-1.229-2.536,2.878,1.887L39.33,32.02l2.838,5.685,11.123-22.11Zm4.591,4.1V16.925h3.948Z" transform="translate(7.841 3.575)" fill="#fff"/></g></g></g></svg>
     </div>    
+
   </div>
 
   <!--Video -->
   <div class="player">
-    <video class="player__video viewer" id="video"></video> <!-- load source by btn -->
-
+    <video class="player__video viewer" id="video"></video>
     <div class="player__controls">
       <div class="progress">
-       <div class="progress__filled"></div>
+        <div class="progress__filled"></div>
       </div>
-      <button class="player__button toggle" title="Toggle Play">►</button>
-      <button data-skip="-10" class="player__button">« 10s</button>
-      <button data-skip="25" class="player__button">25s »</button>
     </div>
   </div>
 
   <script>
-    //swiper
+
+    // Slideshow (Swiper.js)
     var swiper = new Swiper(".mySwiper", {
       spaceBetween: 0,
       centeredSlides: true,
@@ -105,89 +82,45 @@
         },
     });
 
-    //video player
 
+    // Video Players
     const player = document.querySelector('.player');
-    const viewer = player.querySelector('.viewer');
+    const videoPlayer = player.querySelector('video');
     const progress = player.querySelector('.progress');
     const progressBar = player.querySelector('.progress__filled');
-    const toggle = player.querySelector('.toggle');
-    const videoButton = document.querySelector('.btn');
-    const videoButton2 = document.querySelector('.btn2');
-    const videoButton3 = document.querySelector('.btn3');
-    var video = document.getElementById('video');
-
-    /* Build out functions */
-    
-    function togglePlay() {
-      const method = viewer.paused ? 'play' : 'pause';
-      viewer[method]();
-    }
-
-    function updateButton() {
-      const icon = this.paused ? '►' : '❚ ❚';
-      console.log(icon);
-      toggle.textContent = icon;
-    }
+    const playVideoBtns = document.querySelectorAll('.overlay-btn');
 
     function handleProgress() {
-      const percent = (viewer.currentTime / viewer.duration) * 100;
+      const percent = (videoPlayer.currentTime / videoPlayer.duration) * 100;
       progressBar.style.flexBasis = `${percent}%`;
     }
 
-    function scrub(e) {
-      const scrubTime = (e.offsetX / progress.offsetWidth) * viewer.duration;
-      viewer.currentTime = scrubTime;
-    }
-
-    function toggleFullscreen(){
-      player.requestFullscreen();
-      const method = viewer.paused ? 'play' : 'pause';
-      viewer[method]();
-      if(videoButton){
-        video.src = "assets/video_preview_h264.mp4";
-      } else if(videoButton2){
-        video.src = "assets/video_preview_h264 (1).mp4";
-      } else if(videoButton3) {
-        video.src = "assets/video_preview_h264 (2).mp4";
-      }
-    }
-
     function playFullscreenVideo(e){
-      console.log(e.target.classList);
+      player.requestFullscreen();
+      const videoFilePath = `assets/${e.target.dataset.video}`;
+      videoPlayer.src = videoFilePath;
+      videoPlayer.play();
     }
 
-    /* Hook up the event listeners */
-    viewer.addEventListener('click', togglePlay);
-    viewer.addEventListener('play', updateButton);
-    viewer.addEventListener('pause', updateButton);
-    viewer.addEventListener('timeupdate', handleProgress);
-    // videoButton.addEventListener('click', toggleFullscreen);
-    // videoButton.addEventListener('click', togglePlay);
-    // videoButton2.addEventListener('click', toggleFullscreen);
-    // videoButton2.addEventListener('click', togglePlay);
-    // videoButton3.addEventListener('click', toggleFullscreen);
-    // videoButton3.addEventListener('click', togglePlay);
-    const playVideoBtns = document.querySelectorAll('.play-video-btn');
+    function closeFullscreenVideo() {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.webkitExitFullscreen) { /* Safari */
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) { /* IE11 */
+        document.msExitFullscreen();
+      }
+      progressBar.style.flexBasis = '0%';
+    }
 
     playVideoBtns.forEach(btn => {
       btn.addEventListener('click', playFullscreenVideo, true);
     })
 
-    console.log(playVideoBtns);
-
-    toggle.addEventListener('click', togglePlay);
-
-    let mousedown = false;
-    progress.addEventListener('click', scrub);
-    progress.addEventListener('mousemove', (e) => mousedown && scrub(e));
-    progress.addEventListener('mousedown', () => mousedown = true);
-    progress.addEventListener('mouseup', () => mousedown = false);
-    
+    videoPlayer.addEventListener('timeupdate', handleProgress);
+    videoPlayer.addEventListener('ended', closeFullscreenVideo);
    
   </script>
-
-
 
 
 </body>
